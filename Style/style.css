@@ -1,0 +1,81 @@
+/* . serve per le classi e # per gli id */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.descrizione {
+    float: left;
+    width: 1000px;
+    height: 400px;
+}
+
+h1.titolo-pagina {
+    text-align: center;
+}
+
+.immagini#bottom100 {
+    margin-bottom: 100px;
+}
+
+blockquote cite {
+    color: greenyellow;
+}
+
+blockquote {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25%;
+}
+
+.immagini {
+    float: right;
+    padding: 10px, 10px, 10px, 10px;
+}
+
+
+/*liste*/
+
+ul li strong.red {
+    color: red;
+}
+
+ol li strong.blu {
+    color: blue;
+}
+
+.center {
+    padding-left: 100px;
+}
+
+.larghezza1 {
+    width: 460px;
+}
+
+.soloaltezza {
+    height: 400px;
+}
+
+.sfumatura {
+    background: radial-gradient(#e66465, blue);
+    background-position: 50px, 100px;
+}
+
+.backgroundfine {
+    background-image: url(https://thumbs.dreamstime.com/b/wide-ocean-2462885.jpg);
+    height: 700px;
+    width: auto;
+    margin-top: 480px;
+    background-repeat: repeat-x;
+}
+
+.immagine2 {
+    float: right;
+}
+
+#scheda {
+    float: left;
+}
