@@ -74,6 +74,7 @@ ol li strong.blu {
 
 .immagine2 {
     float: right;
+    scale: auto;
 }
 
 #scheda {
